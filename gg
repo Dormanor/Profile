@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid white; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<h2>Centering</h2>
+<p>In this example, we use positioning and the transform property to vertically and horizontally center the button element:</p>
+
+<div class="container">
+  <div class="center">
+    <button>Centered Button</button>
+  </div>
+</div>
+
+</body>
+</html>
+
+<!new>
+<button onclick="window.location.href='https:/www.instagram.com/kahtras_04/';" class="font-effect-neon">
+    Instagram
+    </button>
+    <br>
+    <button onclick="window.location.href='https:/github.com/Dormanor';" class="font-effect-neon">
+    Github
+    </button>
+    <br>
+    <button onclick="window.location.href='https:/open.spotify.com/user/cxnjric2e0obnvm4dkupwj1ua?si=3d06b37a283a44ce';" class="font-effect-neon">
+    Spotify 
+    </button>
+    <br>
+    </div></div>

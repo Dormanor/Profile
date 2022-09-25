@@ -1,0 +1,80 @@
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: auto;
+    background-attachment: scroll;
+    color: rgb(234, 42, 183);
+}
+
+text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(64, 219, 69);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration-color: rgb(29, 161, 75);
+
+} button {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+button {
+    font-family: "Sofia", sans-serif;
+font-size: 30px;
+}
+button:hover {
+    background-color: #7f699d;
+}
+
+.container { 
+    height: 200px;
+    position: relative; 
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+ h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    ;
+ } 
+  body {
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/02/Singapore-High-Quality-and-Resolution-3840x2160-840x525.jpg) ;
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #630ed3;
+  
+}
+.LikeButton button {
+    margin: 1rem;
+    transition: all 0.5s ease;
+    transform: scale(1);
+  }
+   
+  .LikeButton button:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    filter: brightness(120%);
+  }
